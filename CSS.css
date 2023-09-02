@@ -1,0 +1,60 @@
+body {
+  max-width: 1000px;
+  margin: auto;
+  background: black;
+  padding: 10px;
+}
+
+h1, h2, h3, h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:antiquewhite;
+}
+
+p, li, th, td {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+}
+
+#header {
+  text-align:center
+}
+
+a:link {
+    color: rgb(1, 8, 209);
+  }
+  
+  a:visited {
+    color: rgb(0, 121, 24);
+  }
+  
+  a:hover {
+    color: #ffb07c;
+  }
+
+.float {
+    float: left;
+    padding: 15px 40px 15px 15px ;
+
+}
+
+nav {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
+
+table {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;
+}
+
+.container {
+  color: antiquewhite
+}
