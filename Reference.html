@@ -4,6 +4,7 @@
         <head>
             <title>Reference List</title>
             <link rel="stylesheet" href="CSS.css">
+            <script defer src="FormValidation.js"></script>
         </head>
     
         <div> 
@@ -35,6 +36,35 @@
 
                 <li><a href="https://en.wikipedia.org/wiki/Augusta,_Georgia">Augusta Wikipedia</a></li>
             </ol>
-        </section>  
+        </section>
+        
+        <div class="container">
+            <form id="form" action="/">
+                <div class="input-control">
+                    <label for="fname">Name</label>
+                    <input id="fname" name="fname" placeholder="Enter Name" type="text">
+                    <div class="error"></div>
+                </div>
+                <br>
+                <div class="input-control">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" placeholder="Enter Email" type="text">
+                    <div class="error">
+                </div>
+                </div>
+                <div class="input-control">
+                    <label for="email2">Confirm Email</label>
+                    <input id="email2"name="email2" placeholder="Re-enter Email" type="text">
+                    <div class="error"></div>
+                </div>
+                <br>
+                <textarea name="message" rows="10" cols="40" placeholder="Enter Message"></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        
+        <br><br><br>
+        
         <img src="./images/Books.png" alt="Illustration of Vintage Books" style="width:300px" class="floatright">
     </body> 
